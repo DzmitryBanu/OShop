@@ -1,6 +1,6 @@
 .header {
     position  : relative;
-    z-index   : 100;
+    z-index   : 95;
     background: black;
     box-shadow: 0px 4px 4px rgba(135, 135, 135, 0.25);
 }
@@ -22,7 +22,7 @@
 }
 
 .nav__item:not(:last-child) {
-    margin-right: 70px;
+    margin-right: 65px;
 }
 
 .nav__link {
@@ -34,7 +34,7 @@
 }
 
 .nav__link:hover {
-    color: #fb0aff;
+    color: #be0aff;
 }
 
 .fa-user-o {
@@ -43,24 +43,24 @@
 
 .header__logo {
     color    : #fff;
-    font-size: 36px;
+    font-size: 34px;
 }
 
 .header__auth {
-    margin-left: 70px;
+    margin-left: 60px;
 }
 
 .logout {
-    color      : #0a84ff;
+    color      : #0ab1ff;
     margin-left: 20px;
 }
 
 .registration,
 .login {
-    transition: color .4s;
+    transition: color .5s;
 }
 
 .registration:hover,
 .login:hover {
-    color: #ff0aff;
+    color: #ca0aff;
 }
